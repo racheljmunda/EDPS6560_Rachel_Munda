@@ -14,42 +14,56 @@
 		/>
 
 		<!-- FontAwesome CSS -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-        <script src="https://kit.fontawesome.com/5d74cdfd3f.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
 
-		<title>Rachel Munda's Digital Resume</title>
-	</head>
+		<!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+        
+		<!-- Main Stylesheet -->
+		<link rel="stylesheet" href="css/styles.css" />
+
+		<style>
+			/* Hi, I'm an internal stylesheet, and I usually appear within the header section following the external stylesheets listed above. */
+			#sec_lan {
+				height: 200vh;
+			}
+		</style>
+
+        <title>Rachel Munda's Digital Resume</title>	
+    </head>
 
 <!-- Welcome to EDPS 6560 Week 4 - 
             This is an example comment!
         -->
+    <body>
 		<div id="sec_lan" class="container-fluid" style="height: 100vh;">
-			<div class="row justify-content-between align-items-center" style="background-color: aqua">
+			<div id="heading" class="row justify-content-between align-items-center" style="background-color: aqua">
 				<div class="col-auto" style="background-color: aquamarine">
 					<h1><strong>Rachel Munda</strong></h1>
 				</div>
 				<div class="col-auto" style="background-color:cadetblue" >
-                    <a class="btn btn-outline-primary" href="contact.html" role="button" target="_blank"><i class="fas fa-envelope"></i>Contact Me</a>
+                    <a class="btn btn-outline-primary" href="contact.html" role="button" target="_blank"><i class="fas fa-envelope"></i>      Contact Me</a>
 				</div>
 			</div>
-			<div class="row justify-content-right align-items-center" style="height: 40%; background-color: skyblue">
-				
-                <div class="col-2">
+            
+			<div id="profile" class="row justify-content-between align-items-center" style="background-color: aqua">
+				<div class="col-2" style="background-color: aquamarine">
                     <img src="img/profile.jpeg" alt="Rachel Munda Headshot" height="100%" width="auto" />
 				</div>
-                
-                <div class="col-10">
+				<div class="col-10" style="background-color:cadetblue" >
 					<h3>8th Grade Science Teacher at Glendale Middle School<br><br>Graduate Student in the IDET Program at the University of Utah</h3>
 			             <h6> <br>| Canvas | Google Education Suite | Mircosoft Office | Adobe Suite |</h6>
 			             <h6> <br> Nothing is impossible, the word itself says 'I'm possible'! <br>- Audrey Hepburn </h6>
 				</div>
-
 			</div>
+            
 			<div class="row justify-content-center" style="background-color: lightyellow">
 				<div class="col-auto">
 					<a href="#sec_abo">
 						<span>Scroll Down</span><br />
-						<i class="fas fa-chevron-circle-down" style="text-align:center;"></i>
+						<i class="fas fa-chevron-circle-down" style="text-align:center"></i>
 					</a>
 				</div>
 			</div>
@@ -63,47 +77,48 @@
 				</div>
 			</div>
 
-            <div class="row justify-content-right align-items-center" style="height: 10%; background-color: skyblue">
+          			<div id="nav-horizontal" class="row justify-content-between align-items-center" style="background-color: aqua">
+
 				
-                <div class="col-2">
-                    <a href="#sec_abo">
+                <div class="col-auto">
+                    <a href="#sec_abo" class="btn btn-outline-primary" href="contact.html" role="button" target="_blank">
 						<span>About Me</span><br />
 						<i class="fas fa-chevron-circle-down" style="text-align:center;"></i>
 					</a>
 				</div>
-                <div class="col-2">
-                    <a href="#sec_exp">
+                <div class="col-auto">
+                    <a href="#sec_exp" class="btn btn-outline-primary" href="contact.html" role="button" target="_blank">
 						<span>Experience</span><br />
 						<i class="fas fa-chevron-circle-down" style="text-align:center;"></i>
 					</a>
 				</div>
-                <div class="col-2">
-                    <a href="#sec_edu">
+                <div class="col-auto">
+                    <a href="#sec_edu" class="btn btn-outline-primary" href="contact.html" role="button" target="_blank">
 						<span>Education</span><br />
 						<i class="fas fa-chevron-circle-down" style="text-align:center;"></i>
 					</a>
 				</div>                
-                <div class="col-2">
-                    <a href="#sec_ski">
+                <div class="col-auto">
+                    <a href="#sec_ski" class="btn btn-outline-primary" href="contact.html" role="button" target="_blank">
 						<span>Skills</span><br />
 						<i class="fas fa-chevron-circle-down" style="text-align:center;"></i>
 					</a>
 				</div>                
-                <div class="col-2">
-                    <a href="projects/1.html">
+                <div class="col-auto">
+                    <a href="projects/1.html" class="btn btn-outline-primary" href="contact.html" role="button" target="_blank">
 						<span>Portfolio</span><br />
 						<i class="fas fa-chevron-circle-down" style="text-align:center;"></i>
 					</a>
 				</div>                
                 <div class="col-2">
-                    <a href="#sec_awd">
+                    <a href="#sec_awd" class="btn btn-outline-primary" href="contact.html" role="button" target="_blank">
 						<span>Awards</span><br />
 						  <i class="fa-light fa-award"></i>
 					</a>
 				</div>
 			</div>
 		</div>
-        
+
 
 
 		<!-- Welcome to EDPS 6560 Week 2 - 
@@ -180,6 +195,7 @@
 			<p><em>Student Council/Senior Advisor and Girls Who Code Club Sponsor</em></p>
 			<p class="par_exp">
 				<ul>
+				<ul>
 					<li>Adapted and developed curriculum to provide individual needs of students</li>
 					<li>Prepared students for state graduation exams</li>
 					<li>Communicate with parents and families about student progress</li>
@@ -187,7 +203,6 @@
 						opportunities</li>
 				</ul>
 			</p>
-			
 		</div>
 		<!-- End Experience Section -->
 		
@@ -254,4 +269,5 @@
 			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 			crossorigin="anonymous"
 		></script>
+    </body>
 </html>
