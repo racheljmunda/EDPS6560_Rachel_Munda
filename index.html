@@ -14,7 +14,8 @@
 		/>
 
 		<!-- FontAwesome CSS -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+
 
 		<!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,109 +35,73 @@
         <title>Rachel Munda's Digital Resume</title>	
     </head>
 
-<!-- Welcome to EDPS 6560 Week 4 - 
-            This is an example comment!
-        -->
-    <body>
+<!-- This is the main code to the webpage -->
+    <body style="background-color: blanchedalmond">
 		<div id="sec_lan" class="container-fluid" style="height: 100vh;">
-			<div id="heading" class="row justify-content-between align-items-center" style="background-color: aqua">
-				<div class="col-auto" style="background-color: aquamarine">
+            <!-- This is row 1 -->
+			<div id="heading" class="row justify-content-between align-items-center" >
+				<div class="col-auto" >
 					<h1><strong>Rachel Munda</strong></h1>
 				</div>
-				<div class="col-auto" style="background-color:cadetblue" >
+				<div class="col-auto">
                     <a class="btn btn-outline-primary" href="contact.html" role="button" target="_blank"><i class="fas fa-envelope"></i>      Contact Me</a>
 				</div>
 			</div>
             
-			<div id="profile" class="row justify-content-between align-items-center" style="background-color: aqua">
-				<div class="col-2" style="background-color: aquamarine">
-                    <img src="img/profile.jpeg" alt="Rachel Munda Headshot" height="100%" width="auto" />
+            <!-- This is row 2 -->
+			<div id="profile" class="row justify-content-between align-items-center">
+				<div class="col-2" >
+                    <img src="img/profile.jpeg" alt="Rachel Munda Headshot" height="auto" width="100%" />
 				</div>
-				<div class="col-10" style="background-color:cadetblue" >
+				<div class="col-10">
 					<h3>8th Grade Science Teacher at Glendale Middle School<br><br>Graduate Student in the IDET Program at the University of Utah</h3>
 			             <h6> <br>| Canvas | Google Education Suite | Mircosoft Office | Adobe Suite |</h6>
 			             <h6> <br> Nothing is impossible, the word itself says 'I'm possible'! <br>- Audrey Hepburn </h6>
 				</div>
 			</div>
-            
-			<div class="row justify-content-center" style="background-color: lightyellow">
-				<div class="col-auto">
-					<a href="#sec_abo">
-						<span>Scroll Down</span><br />
-						<i class="fas fa-chevron-circle-down" style="text-align:center"></i>
-					</a>
-				</div>
-			</div>
-			<div class="row justify-content-center" style="background-color: darkseagreen">
-				<div class="col-6">
-					<h4>
-						Creating advanced instructional systems and technologies that leverage data analytics to tailor instruction to the specific needs of
-						different learners
-					</h4>
-					<a class="btn btn-lg btn-primary rounded-pill" role="button" href="#sec_abo" >Learn More</a>
-				</div>
-			</div>
 
-          			<div id="nav-horizontal" class="row justify-content-between align-items-center" style="background-color: aqua">
-
-				
-                <div class="col-auto">
-                    <a href="#sec_abo" class="btn btn-outline-primary" href="contact.html" role="button" target="_blank">
+            <!-- This is row 3 -->
+            <div id="nav-horizontal" class="row justify-content-around align-items-center">
+                <div class="col-2">
+                    <a href="#sec_abo" class="btn btn-outline-primary"; role="button" style="height:60px;width:150px">
 						<span>About Me</span><br />
-						<i class="fas fa-chevron-circle-down" style="text-align:center;"></i>
+                        <i class="fa-solid fa-circle-info"></i>
 					</a>
 				</div>
-                <div class="col-auto">
-                    <a href="#sec_exp" class="btn btn-outline-primary" href="contact.html" role="button" target="_blank">
+                <div class="col-2">
+                    <a href="#sec_exp" class="btn btn-outline-primary" role="button" style="height:60px;width:150px">
 						<span>Experience</span><br />
-						<i class="fas fa-chevron-circle-down" style="text-align:center;"></i>
+                        <i class="fa-solid fa-rectangle-list"></i>
 					</a>
 				</div>
-                <div class="col-auto">
-                    <a href="#sec_edu" class="btn btn-outline-primary" href="contact.html" role="button" target="_blank">
+                <div class="col-2">
+                    <a href="#sec_edu" class="btn btn-outline-primary" role="button" style="height:60px;width:150px">
 						<span>Education</span><br />
-						<i class="fas fa-chevron-circle-down" style="text-align:center;"></i>
-					</a>
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </a>
 				</div>                
-                <div class="col-auto">
-                    <a href="#sec_ski" class="btn btn-outline-primary" href="contact.html" role="button" target="_blank">
+                <div class="col-2">
+                    <a href="#sec_ski" class="btn btn-outline-primary" role="button" style="height:60px;width:150px">
 						<span>Skills</span><br />
-						<i class="fas fa-chevron-circle-down" style="text-align:center;"></i>
-					</a>
-				</div>                
-                <div class="col-auto">
-                    <a href="projects/1.html" class="btn btn-outline-primary" href="contact.html" role="button" target="_blank">
-						<span>Portfolio</span><br />
-						<i class="fas fa-chevron-circle-down" style="text-align:center;"></i>
+						<i class="fa-solid fa-desktop"></i>
 					</a>
 				</div>                
                 <div class="col-2">
-                    <a href="#sec_awd" class="btn btn-outline-primary" href="contact.html" role="button" target="_blank">
-						<span>Awards</span><br />
-						  <i class="fa-light fa-award"></i>
+                    <a href="projects/1.html" class="btn btn-outline-primary" role="button" style="height:60px;width:150px">
+						<span>Portfolio</span><br />
+                        <i class="fa-solid fa-book-open-cover"></i>
 					</a>
+				</div>                
+                <div class="col-2">
+                    <a href="#sec_awd" class="btn btn-outline-primary" role="button" style="height:60px;width:150px">
+						<span>Awards</span><br />
+                        <i class="fa-solid fa-award"></i>					
+                    </a>
 				</div>
 			</div>
-		</div>
 
 
-
-		<!-- Welcome to EDPS 6560 Week 2 - 
-            This is an example comment!
-        -->
-
-		<div id="sec_nav" class="row justify-content-start" style="background-color: lightyellow">
-			<ul>
-				<li><a href="#sec_abo">About Me</a></li>
-				<li><a href="#sec_exp">Experience</a></li>
-				<li><a href="#sec_edu">Education</a></li>
-				<li><a href="#sec_ski">Skills</a></li>
-				<li><a href="projects/1.html">Portfolio</a></li>
-				<li><a href="#sec_awd">Awards</a></li>
-
-			</ul>
-		</div>
-		<div id="sec_abo">
+		<div id="sec_abo" >
 			<!-- Start About Me Section -->
 			<h1>About Me</h1>
 			<p>
@@ -167,10 +132,10 @@
 		</div>
 		<!-- End About Me Section -->
 		
-		<div id="sec_exp">
+		<div id="sec_exp" style="background-color: blanchedalmond">
 			<!-- Start Experience Section -->
 			<h1>Experience</h1>
-			<h2>Middle School Science Teacher</h2>
+ 			<h2>Middle School Science Teacher</h2>
 			<h3>Glendale Middle School, <br /><span>Salt Lake City School District</span></h3>
 			<p>August 2018 - <em>present</em></p>
 			<p><em>School Improvement Committee Chair, Team Lead, and STeLA Member</em></p>
@@ -250,7 +215,8 @@
 		</div>
 		<!-- End Awards Section -->
 
-	
+    </div>
+
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
