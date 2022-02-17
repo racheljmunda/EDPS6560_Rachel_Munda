@@ -6,15 +6,11 @@
     --font-family1: 'Abril Fatface', cursive;
     --font-family2: 'Poppins', sans-serif;
 	/* Colors */
-	--main-color-gray: #485359;
-	--main-color-white: #e9f0f2;
-	--main-color-black: #0d0d0d;
-	--main-color-light: #5ef2ad;
-	--main-color-dark: #45735d;
-	--main-color-light2: #f38888;
-	--main-color-dark2: #d27575;
-	--main-color-light3: #a0d3f2;
-	--main-color-dark3: #769bb3;
+	--main-color-black: #190204;
+	--main-color-white: blanchedalmond;
+	--main-color-coral: #FF8976;
+	--main-color-pepper: #CB4E47;
+	--main-color-peach: #FFCBA4;
 }
 
 /* Extra small devices (portrait phones, less than 576px)
@@ -22,15 +18,32 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* Example Syntax */
 #sec_lan {
-	height: 200vh;
 	background-color: var(--main-color-white);
     font-family: 'Poppins', sans-serif;
 }
 
-#sec_nav {
-	height: 12vh;
-	background-color: var(--main-color-white);
+#heading {
+	background-color: var(--main-color-coral);
+    
+}
+
+#nav-horizontal {
+	height: 10vh;
+	background-color: var(--main-color-peach);
     font-family: 'Abril Fatface', cursive;
+}
+
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+li{
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -47,16 +60,4 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-}
-
-h1{
-    font-family: 'Abril Fatface', cursive;
-}
-
-p{
-    font-family: 'Poppins', sans-serif;
-}
-
-li{
-    font-family: 'Poppins', sans-serif;
 }
