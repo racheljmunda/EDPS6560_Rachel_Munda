@@ -24,7 +24,7 @@ No media query for `xs` since this is the default in Bootstrap */
 
 #heading {
 	background-color: var(--main-color-coral);
-    
+    color: var(--main-color-pepper);
 }
 
 #nav-horizontal {
@@ -36,6 +36,7 @@ No media query for `xs` since this is the default in Bootstrap */
 
 h1{
     font-family: 'Abril Fatface', cursive;
+	color: var(--main-color-pepper);
 }
 
 p{
