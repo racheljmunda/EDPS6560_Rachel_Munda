@@ -39,6 +39,17 @@ h1{
 	color: var(--main-color-pepper);
 }
 
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
 p{
     font-family: 'Poppins', sans-serif;
 }
@@ -46,6 +57,13 @@ p{
 li{
     font-family: 'Poppins', sans-serif;
 }
+
+
+[role=button]{
+    background-color: #CB4E47; 
+    Color:blanchedalmond   
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
