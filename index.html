@@ -50,7 +50,7 @@
             
             <!-- This is row 2 -->
 			<div id="profile" class="row justify-content-between align-items-center">
-				<div class="col-2" >
+				<div class="col-2 d-none d-md-block" > <!--image is hidden if the screen is small-->
                     <img src="img/profile.jpeg" alt="Rachel Munda Headshot" height="auto" width="100%" />
 				</div>
 				<div class="col-10">
@@ -61,47 +61,63 @@
 			</div>
 
             <!-- This is row 3 -->
-            <div id="nav-horizontal" class="row justify-content-around align-items-center">
+            <nav id="nav-horizontal" class="row justify-content-around align-items-center">
                 <div class="col-2">
-                    <a href="#sec_abo" class="btn btn-outline-primary"; role="button" style="height:60px;width:150px">
+                    <a href="#sec_abo" class="btn btn-outline-primary"; role="button" style="height:100%;width:100%">
 						<span>About Me</span><br />
                         <i class="fa-solid fa-circle-info"></i>
 					</a>
 				</div>
                 <div class="col-2">
-                    <a href="#sec_exp" class="btn btn-outline-primary" role="button" style="height:60px;width:150px">
+                    <a href="#sec_exp" class="btn btn-outline-primary" role="button" style="height:100%;width:100%">
 						<span>Experience</span><br />
                         <i class="fa-solid fa-rectangle-list"></i>
 					</a>
 				</div>
                 <div class="col-2">
-                    <a href="#sec_edu" class="btn btn-outline-primary" role="button" style="height:60px;width:150px">
+                    <a href="#sec_edu" class="btn btn-outline-primary" role="button" style="height:100%;width:100%">
 						<span>Education</span><br />
                         <i class="fa-solid fa-graduation-cap"></i>
                     </a>
 				</div>                
                 <div class="col-2">
-                    <a href="#sec_ski" class="btn btn-outline-primary" role="button" style="height:60px;width:150px">
+                    <a href="#sec_ski" class="btn btn-outline-primary" role="button" style="height:100%;width:100%">
 						<span>Skills</span><br />
 						<i class="fa-solid fa-desktop"></i>
 					</a>
 				</div>                
                 <div class="col-2">
-                    <a href="projects/1.html" class="btn btn-outline-primary" role="button" style="height:60px;width:150px">
+                    <a href="projects/1.html" class="btn btn-outline-primary" role="button" style="height:100%;width:100%">
 						<span>Portfolio</span><br />
                         <i class="fa-solid fa-book-open"></i>
                     </a>
 				</div>                
                 <div class="col-2">
-                    <a href="#sec_awd" class="btn btn-outline-primary" role="button" style="height:60px;width:150px">
+                    <a href="#sec_awd" class="btn btn-outline-primary" role="button" style="height:100%;width:100%">
 						<span>Awards</span><br />
                         <i class="fa-solid fa-award"></i>					
                     </a>
 				</div>
-			</div>
+			</nav>
+            
+    
+            <!-- This is row 4 only visible when screen is xs-->
+            <nav id="nav-list" class="row align-items-start d-block d-sm-none">
+                			
+            <ul style="list-style-type:none;">
+				<li><a href="#sec_abo" ><span><i class="fa-solid fa-circle-info"></i>  About Me</span></a></li>
+                <li><a href="#sec_exp" ><span><i class="fa-solid fa-rectangle-list"></i>  Experience</span></a></li>
+                <li><a href="#sec_edu" ><span><i class="fa-solid fa-graduation-cap"></i>  Education</span></a></li>
+                <li><a href="#sec_ski" ><span><i class="fa-solid fa-desktop"></i>  Skills</span></a></li>
+                <li><a href="projects/1.html"><span><i class="fa-solid fa-book-open"></i>  Portfolio</span></a></li>
+                <li><a href="#sec_awd" ><span><i class="fa-solid fa-award"></i>  Awards</span></a></li>
 
+                
+			</ul>
+            </nav>
+                
 
-		<div id="sec_abo" >
+        <div id="sec_abo">
 			<!-- Start About Me Section -->
 			<h1>About Me</h1>
 			<p>
@@ -132,7 +148,8 @@
 		</div>
 		<!-- End About Me Section -->
 		
-		<div id="sec_exp" style="background-color: blanchedalmond">
+		<div id="sec_exp">
+            
 			<!-- Start Experience Section -->
 			<h1>Experience</h1>
  			<h2>Middle School Science Teacher</h2>
