@@ -28,9 +28,10 @@ No media query for `xs` since this is the default in Bootstrap */
 }
 
 #nav-horizontal {
-	height: 18vh;
+	height: 16vh;
 	background-color: var(--main-color-peach);
     font-family: 'Abril Fatface', cursive;
+    align-items: center;
 }
 
 
