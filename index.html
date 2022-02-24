@@ -16,7 +16,6 @@
 		<!-- FontAwesome CSS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
 
-
 		<!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +25,7 @@
 		<link rel="stylesheet" href="css/styles.css" />
 
 		<style>
-			/* Hi, I'm an internal stylesheet, and I usually appear within the header section following the external stylesheets listed above. */
+        /* Hi, I'm an internal stylesheet, and I usually appear within the header section following the external stylesheets listed above. */
 			#sec_lan {
 				height: 200vh;
 			}
@@ -38,7 +37,8 @@
 <!-- This is the main code to the webpage -->
     <body style="background-color: blanchedalmond">
 		<div id="sec_lan" class="container-fluid" style="height: 100vh;">
-            <!-- This is row 1 -->
+            
+            <!-- This is row 1, the header to the page with contact link-->
 			<div id="heading" class="row justify-content-between align-items-center" >
 				<div class="col-auto" >
 					<h1><strong>Rachel Munda</strong></h1>
@@ -48,19 +48,19 @@
 				</div>
 			</div>
             
-            <!-- This is row 2 -->
+            <!-- This is row 2, includes basic bio with image and quote. The image is hidden if the screen is small-->
 			<div id="profile" class="row justify-content-between align-items-center">
-				<div class="col-2 d-none d-md-block" > <!--image is hidden if the screen is small-->
+				<div class="col-2 d-none d-md-block" >
                     <img src="img/profile.jpeg" alt="Rachel Munda Headshot" height="auto" width="100%" />
 				</div>
 				<div class="col-10">
 					<h3>8th Grade Science Teacher at Glendale Middle School<br><br>Graduate Student in the IDET Program at the University of Utah</h3>
-			             <h6> <br>| Canvas | Google Education Suite | Mircosoft Office | Adobe Suite |</h6>
-			             <h6> <br> Nothing is impossible, the word itself says 'I'm possible'! <br>- Audrey Hepburn </h6>
+                    <h6> <br>| Canvas | Google Education Suite | Mircosoft Office | Adobe Suite |</h6>
+                    <h6> <br> Nothing is impossible, the word itself says 'I'm possible'! <br>- Audrey Hepburn </h6>
 				</div>
 			</div>
 
-            <!-- This is row 3 -->
+            <!-- This is row 3, which is the navagtion for the page, buttons are only visible when the screen is medium or larger-->
             <nav id="nav-horizontal" class="row justify-content-betweem align-items-center">
                 <div class="col-2 d-none d-md-block">
                     <a href="#sec_abo" class="btn btn-outline-primary"; role="button" style="height:100%;width:100%">
@@ -98,8 +98,10 @@
                         <i class="fa-solid fa-award"></i>					
                     </a>
 				</div>
-                <nav id="nav-list" class="row align-items-start align-items-center d-block d-md-none">      <!--only visible when screen is small-->
+                
+                <!--List is only visible when screen is small-->
 
+                <nav id="nav-list" class="row align-items-start align-items-center d-block d-md-none">
                 			
                     <ul style="list-style-type:none;">
 				        <li><a href="#sec_abo" ><span><i class="fa-solid fa-circle-info"></i>  About Me</span></a></li>
@@ -113,13 +115,13 @@
 		</nav>
             
     
-                
+        <!--The following rows are each sections of my resume -->
 
+        <!-- Start About Me Section -->
         <div id="sec_abo"class="row justify-content-start align-items-center">
             <div class="col-auto">
-			<!-- Start About Me Section -->
-			<h1>About Me</h1>
-			<p>
+                <h1>About Me</h1>
+                <p>
 				The basis of my instructional design philosophy is making informed design decisions based on the multiple 
 				steps of the design process. Each step is crucial in developing meaningful instruction for learners to develop 
 				and master the skills defined by the goals of the learning. The primary set of steps in the design process is to 
@@ -143,102 +145,101 @@
 				from learners to help make adjustments and improvements to the instructional modules. There are many forms of evaluation, 
 				but the most crucial part is for the designer to take the feedback and implement it in improving the instruction to meet 
 				the needs of the learners.			
-			</p>
+                </p>
             </div>
 		</div>
 		<!-- End About Me Section -->
 		
+        <!-- Start Experience Section -->
 		<div id="sec_exp" class="row justify-content-start align-items-center">
             <div class="col-auto">
-			<!-- Start Experience Section -->
-			<h1>Experience</h1>
- 			<h2>Middle School Science Teacher</h2>
-			<h3>Glendale Middle School, <br /><span>Salt Lake City School District</span></h3>
-			<p>August 2018 - <em>present</em></p>
-			<p><em>School Improvement Committee Chair, Team Lead, and STeLA Member</em></p>
-				<ul>
-					<li>Adapt curriculum to meet the individual needs of students including Sped and ELL
+                <h1>Experience</h1>
+                <h2>Middle School Science Teacher</h2>
+                <h3>Glendale Middle School, <br /><span>Salt Lake City School District</span></h3>
+                <p>August 2018 - <em>present</em></p>
+                <p><em>School Improvement Committee Chair, Team Lead, and STeLA Member</em></p>
+				    <ul>
+                        <li>Adapt curriculum to meet the individual needs of students including Sped and ELL
 						students</li>
-					<li>Establish and maintain a rigorous and welcoming classroom culture</li>
-					<li>Prepare students for state required standardized tests</li>
-					<li>Communicate with parents and families about student progress</li>
-					<li>Plan and share recommendations for improving educational programs and
+                        <li>Establish and maintain a rigorous and welcoming classroom culture</li>
+                        <li>Prepare students for state required standardized tests</li>
+                        <li>Communicate with parents and families about student progress</li>
+                        <li>Plan and share recommendations for improving educational programs and
 						conditions within the school</li>
-					<li>Plan, develop, and implement teacher professional develop on student engagement
+                        <li>Plan, develop, and implement teacher professional develop on student engagement
 						strategies </li>
-					<li>Support and train colleagues with transition to remote learning and district LMS</li>
-					<li>Collaborate and develop science curriculum with district-wide teacher leader group</li>
-				</ul>
-			<h2>High School Science Teacher</h2>
-			<h3>John Marshall School of IT, <br /><span>Cleveland Metropolitan School District</span></h3>
-			<p>August 2015 - May 2018</p>
-			<p><em>Student Council/Senior Advisor and Girls Who Code Club Sponsor</em></p>
-				<ul>
-					<li>Adapted and developed curriculum to provide individual needs of students</li>
-					<li>Prepared students for state graduation exams</li>
-					<li>Communicate with parents and families about student progress</li>
-					<li>Established and fostered relationships with community partners to expand student
+                        <li>Support and train colleagues with transition to remote learning and district LMS</li><li>Collaborate and develop science curriculum with district-wide teacher leader group</li>
+                    </ul>
+			
+                <h2>High School Science Teacher</h2>
+                <h3>John Marshall School of IT, <br /><span>Cleveland Metropolitan School District</span></h3>
+                <p>August 2015 - May 2018</p>
+                <p><em>Student Council/Senior Advisor and Girls Who Code Club Sponsor</em></p>
+                    <ul>
+                        <li>Adapted and developed curriculum to provide individual needs of students</li>
+                        <li>Prepared students for state graduation exams</li>
+                        <li>Communicate with parents and families about student progress</li>
+                        <li>Established and fostered relationships with community partners to expand student
 						opportunities</li>
-				</ul>
+                    </ul>
             </div>
 		</div>
 		<!-- End Experience Section -->
-		
+            
+		<!-- Start Education Section -->
 		<div id="sec_edu" class="row justify-content-start align-items-center">
             <div class="col-auto">
+                <h1>Education</h1>
+                <h2>University of Utah</h2>
+                <h3><em>Instructional Design and Education Technology, M. Ed.</em></h3>
+                <p>August 2021 - <em>present</em><br><a href="https://idbyrachelmunda.weebly.com/">Foundations of Instructional Design - Digital Portfolio Link</a></p>
+			
+                <h2>Southern Utah University</h2>
+                <h3><em>ESL Endorsement</em></h3>
+                <p>August 2019 - March 2021 </p>
                 
-			<!-- Start Edcuation Section -->
-			<h1>Education</h1>
-			<h2>University of Utah</h2>
-			<h3><em>Instructional Design and Education Technology, M. Ed.</em></h3>
-			<p>August 2021 - <em>present</em><br><a href="https://idbyrachelmunda.weebly.com/">Foundations of Instructional Design - Digital Portfolio Link</a></p>
-			<h2>Southern Utah University</h2>
-			<h3><em>ESL Endorsement</em></h3>
-			<p>August 2019 - March 2021 </p>
-			<h2>University of California, San Diego</h2>
-			<h3><em>Graduate work in Earth Science</em></h3>
-			<p>September 2013 - June 2015 </p>
-			<h2>University of California, San Diego</h2>
-			<h3><em>Earth Science/Geophysics and Minor in Education Studies, B.S.</em></h3>
-			<p>September 2009 - June 2013 </p>
-		
+                <h2>University of California, San Diego</h2>
+                <h3><em>Graduate work in Earth Science</em></h3>
+                <p>September 2013 - June 2015 </p>
+                <h2>University of California, San Diego</h2>
+                <h3><em>Earth Science/Geophysics and Minor in Education Studies, B.S.</em></h3>
+                <p>September 2009 - June 2013 </p>
             </div>
         </div>
 		<!-- End Education Section -->
 		
+        <!-- Start Skills Section -->
 		<div id="sec_ski" class="row justify-content-start align-items-center">
             <div class="col-auto">
-			<!-- Start Skills Section -->
-			<h1>Skills</h1>
-			<ul>
-				<li>Mircosoft Office</li>
-				<li>Google Education Suite</li>
-				<li>Varous Educational LMS</li>
-				<li>Adobe Illustrator and Photoshop</li>
-				<li>MATLAB and other IDE Software</li>
-			</ul>
+                <h1>Skills</h1>
+                    <ul>
+                        <li>Mircosoft Office</li>
+                        <li>Google Education Suite</li>
+                        <li>Varous Educational LMS</li>
+                        <li>Adobe Illustrator and Photoshop</li>
+                        <li>MATLAB and other IDE Software</li>
+                    </ul>
             </div>
 		</div>
 		<!-- End Skills Section -->
-		
+        
+        <!-- Start Awards Section -->
 		<div id="sec_awd" class="row justify-content-start align-items-center">
             <div class="col-auto">
-			<!-- Start Awards Section -->
-			<h1>Awards</h1>
-			<ul>
-				<li>The Pamela C. Petuskey Endowed Scholarship, 2022</li>
-				<li>The Mahoney Family Foundation – Teacher Scholarship, 2021</li>
-				<li>Molina Healthcare Scholarship, 2013 & 2014</li>
-				<li>Provost Honors, UC San Diego, 2011 & 2012 & 2013</li>
-			</ul>
+                <h1>Awards</h1>
+                    <ul>
+                        <li>The Pamela C. Petuskey Endowed Scholarship, 2022</li>
+                        <li>The Mahoney Family Foundation – Teacher Scholarship, 2021</li>
+                        <li>Molina Healthcare Scholarship, 2013 & 2014</li>
+                        <li>Provost Honors, UC San Diego, 2011 & 2012 & 2013</li>
+                    </ul>
             </div>
 		</div>
 		<!-- End Awards Section -->
 
-    </div>
 
 
-		<!-- Optional JavaScript -->
+		<!-- Start of optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script
 			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -255,5 +256,9 @@
 			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 			crossorigin="anonymous"
 		></script>
+        <!-- End of optional JavaScript -->
+
+        
+        </div>
     </body>
 </html>
