@@ -11,6 +11,7 @@
 	--main-color-coral: #FF8976;
 	--main-color-pepper: #CB4E47;
 	--main-color-peach: #FFCBA4;
+    --main-color-sage: #C0D8C0;
 }
 
 /* Extra small devices (portrait phones, less than 576px)
@@ -27,6 +28,11 @@ No media query for `xs` since this is the default in Bootstrap */
     color: var(--main-color-pepper);
 }
 
+#heading a:hover{
+    background-color: var(--main-color-sage);
+    border-color: var(--main-color-sage);
+}
+
 #nav-horizontal {
 	height: 14.5vh;
 	background-color: var(--main-color-peach);
@@ -34,7 +40,11 @@ No media query for `xs` since this is the default in Bootstrap */
     align-items: center;
 }
 
+#nav-horizontal a:hover{
+    background-color: var(--main-color-sage);
+    border-color: var(--main-color-sage);
 
+}
 
 
 h1{
@@ -62,11 +72,19 @@ li{
 }
 
 
-[role=button]{
-    background-color: #CB4E47; 
-    Color:blanchedalmond   
+#button {
+    background-color: var(--main-color-pepper);
+    Color:var(--main-color-white);
+    border-color:var(--main-color-pepper);
 }
 
+#botton a:hover{
+    background-color: var(--main-color-sage);
+}
+
+a:hover {
+    color: var(--main-color-pepper);
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
