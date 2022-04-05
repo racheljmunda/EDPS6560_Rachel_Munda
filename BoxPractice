@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- FontAwesome CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Reggae+One&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+
+		<!-- My Personal Stylesheet -->
+		<link rel="stylesheet" href="css/stylesbox.css" />
+
+		<title>Example Site for CSS Box Model</title>
+	</head>
+	<body>
+        <h1>Box Model Example</h1>
+        <p>This is an example of the box model with content, padding, border and margin using float feature.</p>
+		<div class="element1">Box 1</div>
+        
+        <div class="Scale">Scale</div>
+        
+        <div class="element2">Box 2</div>
+
+		
+	</body>
+</html>
