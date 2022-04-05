@@ -123,3 +123,12 @@ Old Code
             </div>
 		</div>
 		<!-- End Awards Section -->
+        
+        
+        
+        Portfolio
+        
+        
+        
+        
+                      <h1><u>Activity #1: Hello World!</u><br> <br>Hello, world! My name is Rachel and this is my first assignment for a class I am taking as part of the IDET program at the Univeristy of Utah.</h1>
