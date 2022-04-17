@@ -170,10 +170,8 @@ a:hover {
 /*Animation Elements*/
 
 .logoparent{
-    width: auto;
-    height: 400px;
-    background-color: #740001;
-    
+    width: 500px;
+    height: auto;    
 }
 
 .logochild{
@@ -181,10 +179,9 @@ a:hover {
     width: 50%;
     
     background-image:url("../img/RMlogo.png");
-    background-size: 200px auto;
     background-repeat:no-repeat;
     background-position: center;
-    animation: broom 10s ease-in forwards infinite alternate ;
+    animation: logo 10s ease-in forwards infinite alternate ;
 }
 
 .parentanimate:hover .childanimate{
