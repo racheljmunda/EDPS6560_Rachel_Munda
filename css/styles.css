@@ -167,6 +167,41 @@ a:hover {
     margin: 50px;
 }
 
+/*Animation Elements*/
+
+.logoparent{
+    width: auto;
+    height: 400px;
+    background-color: #740001;
+    
+}
+
+.logochild{
+    height: 50%;
+    width: 50%;
+    
+    background-image:url("../img/RMlogo.png");
+    background-size: 200px auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    animation: broom 10s ease-in forwards infinite alternate ;
+}
+
+.parentanimate:hover .childanimate{
+    animation-play-state: paused;
+}
+
+@keyframes logo{
+    0%{transform: translatex(0%);}
+    33%{transform: translateY(100%);}
+    66%{transform: translateX(100%)translateY(100%);}
+    77%{transform: scaleX(-1);}
+    100%{transform: translatex(100%);}
+}
+
+
+
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
