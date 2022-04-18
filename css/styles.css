@@ -47,6 +47,14 @@ No media query for `xs` since this is the default in Bootstrap */
 }
 
 
+#nav-list {
+	height: 18vh;
+	background-color: var(--main-color-peach);
+    font-family: 'Abril Fatface', cursive;
+    align-items: center;
+}
+
+
 h1{
     font-family: 'Abril Fatface', cursive;
 	color: var(--main-color-pepper);
@@ -167,11 +175,13 @@ a:hover {
     margin: 50px;
 }
 
-/*Animation Elements*/
+/*Transforamtion/Animation Elements*/
 
-.logoparent{
-    width: 500px;
-    height: auto;    
+ .logoparent{
+    width: auto;
+    height: 400px;
+    background-color: blanchedalmond;
+    
 }
 
 .logochild{
@@ -179,6 +189,7 @@ a:hover {
     width: 50%;
     
     background-image:url("../img/RMlogo.png");
+    background-size: 200px auto;
     background-repeat:no-repeat;
     background-position: center;
     animation: logo 10s ease-in forwards infinite alternate ;
@@ -192,13 +203,54 @@ a:hover {
     0%{transform: translatex(0%);}
     33%{transform: translateY(100%);}
     66%{transform: translateX(100%)translateY(100%);}
-    77%{transform: scaleX(-1);}
     100%{transform: translatex(100%);}
 }
 
+.container {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+    
 
+}
 
+.box {
+    width: 300px;
+    height: 150px;
+    transition-duration: 2s;
+    transition-property: width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFCBA4;
+    padding: 25px;
+    border: 10px solid #CB4E47;
+    margin: 50px
 
+  
+}
+
+.container:hover .box {
+  width: 1000px;
+}
+
+.one {
+  transition-timing-function: linear;
+}
+
+.two {
+  transition-timing-function: ease-in;
+}
+
+.three {
+  transition-timing-function: ease-out;
+}
+
+.four {
+  transition-timing-function: ease-in-out;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
