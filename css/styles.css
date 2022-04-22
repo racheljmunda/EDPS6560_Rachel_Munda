@@ -228,13 +228,30 @@ a:hover {
     padding: 25px;
     border: 10px solid #CB4E47;
     margin: 50px
+}
 
-  
+.portfolio {
+    width: 300px;
+    height: 75px;
+    transition-duration: 2s;
+    transition-property: width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFCBA4;
+    padding: 25px;
+    border: 10px solid #CB4E47;
+    margin: 50px
 }
 
 .container:hover .box {
   width: 1000px;
 }
+
+.container:hover .portfolio {
+  width: 1000px;
+}
+
 
 .one {
   transition-timing-function: linear;
@@ -250,6 +267,10 @@ a:hover {
 
 .four {
   transition-timing-function: ease-in-out;
+}
+
+.five {
+  transition-timing-function: ease-in;
 }
 
 /* Small devices (landscape phones, 576px and up) */
